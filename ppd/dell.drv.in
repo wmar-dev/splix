@@ -42,5 +42,31 @@ Manufacturer "Dell"
     }
 }
 
+//
+// Dell 1135n (rebranded Samsung SCX-4623F)
+//
+{
+    #import "monochrome-v2.defs"
+    #import "powersave.defs"
+    #import "tonerdensity.defs"
+    #import "tonersave.defs"
+    #import "jamrecovery.defs"
+
+    // QPDL Version 3
+    {
+        Attribute QPDL QPDLVersion "3"
+        Attribute General DocHeaderValues "<0><0><1>"
+
+        {
+            Resolution k 1 0 0 0 "1200dpi/1200 DPI"
+
+            {
+                ModelName "1135n"
+                PCFileName "1135n.ppd"
+            }
+        }
+    }
+}
+
 /* vim: set expandtab tabstop=4 shiftwidth=4 smarttab tw=80 enc=utf8: */
 
